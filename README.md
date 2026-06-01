@@ -72,3 +72,9 @@ Na versão refatorada, as seguintes melhorias foram aplicadas:
 A revisão estrutural evidenciou que códigos aparentemente simples e funcionais podem abrigar vulnerabilidades de segurança severas e problemas de gerenciamento de recursos. A aplicação do teste estrutural (identificação de nós, arestas e caminhos básicos) facilitou o mapeamento mental de como o código se comporta sob diferentes cenários (sucesso, falha lógica, falha de infraestrutura).
 
 A maior dificuldade costuma ser identificar pontos de exceção ocultos pelo mau uso de blocos `catch` vazios. O impacto desta revisão é direto na **segurança e resiliência** da aplicação: ao aplicar o `PreparedStatement` e o correto gerenciamento de conexões, a qualidade do software foi elevada, demonstrando que a manutenibilidade e a segurança devem ser planejadas desde a construção de consultas básicas.
+
+
+
+
+
+autor Kauã Garcia Francisco
